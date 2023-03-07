@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/images/aboutback.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.flex-container {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.flex-item {
+    display: inline-block;
+    margin: 25px;
+
+}
+
+.flex-item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;  
+    top: -20%;
+}
+
+.main h1{
+    font-family: Anton;
+
+    font-size: 80px;
+    margin: 20px;
+    text-align: center;
+}
+
+.logo{
+    width: 9%;
+    padding-left: 70px;
+    position: relative;
+    top: -120px;
+}
+
+
+
+.main p{
+    position: relative;
+    margin: 20px;
+    font-size: 20px;
+    border-style: solid;
+    width: 40%;
+    border-width: 10px;
+    left: 28%;
+    border-radius: 15px;
+    background-color: black
+}
+
+.image1{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    padding-left: 2%;
+    top: -30vh;
+
+}
+
+.image2{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    padding-left: 74%;
+    top: -50vh;
+
+}
+
+@media (max-width: 850px){
+    .flex-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-size: 2vw;
+    }
+
+    .flex-item{
+        margin: 15px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .image1{
+        display: none;
+    }
+
+    .image2{
+        display: none;
+    }
+}
+
